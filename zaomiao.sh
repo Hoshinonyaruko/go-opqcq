@@ -78,4 +78,4 @@ else
 fi
 
 # 运行可执行文件
-./test-android-arm64 ws_server ws://127.0.0.1:$api_port  -wsurlb ws://101.35.247.237:$wsurlb_port -qq $qq -api_port $user_api_port -token $token
+./test-android-arm64 -ws_server ws://127.0.0.1:$api_port -wsurlb ws://101.35.247.237:$wsurlb_port -qq $qq -api_port $user_api_port -token $token
